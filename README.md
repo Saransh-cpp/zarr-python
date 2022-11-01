@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/zarr-developers/community/main/logos/logo2.png"><br>
 </div>
 
-# Zarr
+# Zarr 
 
 <table>
 <tr>
