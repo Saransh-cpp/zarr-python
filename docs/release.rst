@@ -17,6 +17,8 @@ Unreleased
 Maintenance
 ~~~~~~~~~~~
 
+* Dummy release notes
+
 * Simplify if/else statement.
   By :user:`Dimitri Papadopoulos Orfanos <DimitriPapadopoulos>` :issue:`1227`.
 
