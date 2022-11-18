@@ -1,2 +1,14 @@
 needs release notes:
-- all: ['!docs/release.rst']
+- any: ['!src/docs/*']
+- all: [
+  '.',
+  '!pre-commit-config.yaml',
+  '!.gitignore',
+  '!FUNDING.yml',
+  '!.gitattributes',
+  '!.flake8',
+  '!.deepsource.toml',
+  '!.pep8speaks.yml',
+  '!.pyup.yml',
+  '!.readthedocs.yaml'
+  ]
