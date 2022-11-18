@@ -19,7 +19,7 @@ dependencies = [
 ]
 dynamic = [
   "version",
-]
+] 
 classifiers = [
     'Development Status :: 6 - Mature',
     'Intended Audience :: Developers',
