@@ -1,5 +1,5 @@
 needs release notes:
-- any: ['!src/docs/*']
+- any: ['!docs/release.rst']
 - all: [
   '.',
   '!pre-commit-config.yaml',
