@@ -1,7 +1,7 @@
 # pyup.io config file
 # see https://pyup.io/docs/configuration/ for all available options
 
-schedule: every month
+schedule: every month 
 
 requirements:
   - requirements_dev_minimal.txt:
