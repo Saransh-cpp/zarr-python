@@ -1,13 +1,11 @@
 needs release notes:
+- 'zarr/*'
+- 'docs/*'
+- 'notebooks/*'
+- 'fixture/*'
+- 'bench/*'
+- '.github/workflows/*' 
+- 'LICENSE.txt'
+- 'pyproject.toml'
+- 'requirements_*.txt'
 - all: ['!docs/release.rst']
-  any: [
-    'zarr/*',
-    'docs/*',
-    'notebooks/*',
-    'fixture/*',
-    'bench/*',
-    '.github/workflows/*', 
-    'LICENSE.txt',
-    'pyproject.toml',
-    'requirements_*.txt'
-  ]
