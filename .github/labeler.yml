@@ -1,6 +1,6 @@
 needs release notes:
-- any: ['!docs/release.rst']
-  all: [
+- all: ['!docs/release.rst']
+  any: [
     'zarr/*',
     'docs/*',
     'notebooks/*',
