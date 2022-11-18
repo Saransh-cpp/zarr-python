@@ -1,14 +1,13 @@
 needs release notes:
 - any: ['!docs/release.rst']
-- all: [
-  '.',
-  '!pre-commit-config.yaml',
-  '!.gitignore',
-  '!FUNDING.yml',
-  '!.gitattributes',
-  '!.flake8',
-  '!.deepsource.toml',
-  '!.pep8speaks.yml',
-  '!.pyup.yml',
-  '!.readthedocs.yaml'
+  all: [
+    'zarr/*',
+    'docs/*',
+    'notebooks/*',
+    'fixture/*',
+    'bench/*',
+    '.github/workflows/*', 
+    'LICENSE.txt',
+    'pyproject.toml',
+    'requirements_*.txt'
   ]
